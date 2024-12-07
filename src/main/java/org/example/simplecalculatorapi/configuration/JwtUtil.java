@@ -1,4 +1,4 @@
-package org.example.simplerestcalculator.configuration;
+package org.example.simplecalculatorapi.configuration;
 
 import io.jsonwebtoken.Claims;
 import io.jsonwebtoken.Jwts;

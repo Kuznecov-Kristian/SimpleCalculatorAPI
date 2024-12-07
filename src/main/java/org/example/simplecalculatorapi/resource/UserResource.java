@@ -1,9 +1,9 @@
-package org.example.simplerestcalculator.resource;
+package org.example.simplecalculatorapi.resource;
 
-import org.example.simplerestcalculator.configuration.JwtUtil;
-import org.example.simplerestcalculator.dto.AuthenticationRequestDto;
-import org.example.simplerestcalculator.entity.User;
-import org.example.simplerestcalculator.service.UserService;
+import org.example.simplecalculatorapi.configuration.JwtUtil;
+import org.example.simplecalculatorapi.dto.AuthenticationRequestDto;
+import org.example.simplecalculatorapi.entity.User;
+import org.example.simplecalculatorapi.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
 import org.springframework.security.core.Authentication;

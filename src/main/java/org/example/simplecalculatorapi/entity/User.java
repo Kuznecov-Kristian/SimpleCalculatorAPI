@@ -1,4 +1,4 @@
-package org.example.simplerestcalculator.entity;
+package org.example.simplecalculatorapi.entity;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 import jakarta.persistence.*;
@@ -22,7 +22,6 @@ public class User implements UserDetails {
     @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Long id;
 
-    private String name;
     private String username;
     private String password;
 

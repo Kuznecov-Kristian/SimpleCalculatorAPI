@@ -1,0 +1,56 @@
+Регистрация:
+POST
+http://localhost:8080/user
+
+Тело:
+{
+    "username": "testUser",
+    "password": "testPassword"
+}
+
+Ответ:
+{
+    "username": "testUser",
+    "password": "testPassword",
+    "enabled": true,
+    "accountNonExpired": true,
+    "credentialsNonExpired": true,
+    "accountNonLocked": true
+}
+
+
+Авторизация:
+POST
+http://localhost:8080/user/login
+
+Тело:
+{
+    "username": "testUser",
+    "password": "testPassword"
+}
+
+Ответ:
+Токен доступа:
+eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ0ZXN0VXNlciIsImV4cCI6MTczMzYxODIzMywiaWF0IjoxNzMzNTgyMjMzfQ.z40qnL0rO0eL8dUsD5g66z_qJHyixBrE7-12D5pNC-0
+
+
+Вычислить:
+POST
+http://localhost:8080/solve
+
+Тело:
+{
+    "expression": "2 + 2 * 3"
+}
+
+Bearer token:
+наш токен
+
+Ответ:
+{
+    "expression": "2 + 2 * 3",
+    "result": 8.0,
+    "correctCalculated": true,
+    "errorMessage": "No error"
+}
+

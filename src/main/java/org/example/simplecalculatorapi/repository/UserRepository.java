@@ -1,6 +1,7 @@
-package org.example.simplerestcalculator.repository;
+package org.example.simplecalculatorapi.repository;
 
-import org.example.simplerestcalculator.entity.User;
+
+import org.example.simplecalculatorapi.entity.User;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.Optional;

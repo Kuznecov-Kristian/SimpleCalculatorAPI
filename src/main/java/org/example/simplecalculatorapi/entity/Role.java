@@ -1,4 +1,4 @@
-package org.example.simplerestcalculator.entity;
+package org.example.simplecalculatorapi.entity;
 
 import org.springframework.security.core.GrantedAuthority;
 

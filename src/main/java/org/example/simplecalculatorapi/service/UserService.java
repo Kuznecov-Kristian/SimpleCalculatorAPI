@@ -1,8 +1,9 @@
-package org.example.simplerestcalculator.service;
+package org.example.simplecalculatorapi.service;
 
-import org.example.simplerestcalculator.entity.Role;
-import org.example.simplerestcalculator.entity.User;
-import org.example.simplerestcalculator.repository.UserRepository;
+
+import org.example.simplecalculatorapi.entity.Role;
+import org.example.simplecalculatorapi.entity.User;
+import org.example.simplecalculatorapi.repository.UserRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;
 import org.springframework.security.core.userdetails.UserDetailsService;
