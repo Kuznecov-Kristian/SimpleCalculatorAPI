@@ -2,9 +2,6 @@ package org.example.simplecalculatorapi.entity;
 
 import lombok.*;
 
-@Setter
-@Getter
-@ToString
 @NoArgsConstructor
 @AllArgsConstructor
 public class Issue {
